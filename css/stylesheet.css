@@ -1,0 +1,387 @@
+/*  ------------- Général  -------------------- */
+
+body {
+    color: white;
+}
+
+.gradient {
+    background: linear-gradient(
+    to right,
+    black 0px,
+    rgb(51,51,51) 610px,
+    rgb(139,137,137) 960px,
+    rgb(44,44,44) 1320px,
+    black 1920px);
+}
+
+h1 {
+    text-align: center;
+    font: 900 62px/45px "Arial Black",Arial,Helvetica,sans-serif;
+    letter-spacing: -6px;
+    padding-top: 80px;
+    padding-right: 15px;
+}
+
+h2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+    border-top: 4px solid rgb(255,240,0);
+    padding: 3px;
+}
+
+h3 {
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgb(255,240,0);
+    padding: 2px;
+    margin-top: -20px;
+}
+
+h4 {
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid rgb(85,85,85);
+
+}
+
+p {
+    text-align: left;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.titre-fondJaune {
+    background-color: rgb(255,240,0);
+    color: rgb(236,21,91);
+}
+
+/*  -------------   Container   ------------------*/
+
+.container {
+    position: relative;
+    background-image: url('../img/full.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+    width: 720px;
+    margin-top: -20px;
+    margin-left: 610px;
+}
+
+
+/*  ------------   Bloc Gauche ------------------ */
+
+.blocGauche {
+    width: 50%;
+    margin-top: -18px;
+    margin-left: 30px;
+}
+
+.img-article-g {
+    float: left;
+    border: 2px solid rgb(255,240,0);
+    padding: 2px;
+    margin: 2px 10px 10px 0;
+}
+
+.img-article-d {
+    float: right;
+    border: 2px solid rgb(255,240,0);
+    padding: 2px;
+    margin: 2px 0 10px 10px;
+}
+
+.blocGauche a:link {
+    color: rgb(255,240,0);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.blocGauche a:hover {
+    color: rgb(236,21,91);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.blocGauche a:visited {
+    color: rgb(255,240,0);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.link {
+    width: 320px;
+    border-left: 4px solid rgb(255,240,0);
+    padding-left: 4px;
+}
+
+.link p {
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 12px;
+}
+
+.link a {
+    color: rgb(255,240,0);
+}
+
+.link a:hover {
+    color: rgb(236,21,91);
+}
+
+.link a:visited {
+    color: rgb(255,240,0);
+}
+
+.b-font {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.bloc1 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.bloc2 {
+    padding-bottom: 5px;
+}
+
+span {
+    font-weight: 900;
+}
+
+.bloc3 {
+    padding-bottom: 5px;
+}
+
+.quote {
+    margin-left: 20px;
+    width: 300px;
+    background-color: rgb(34,34,34);
+    border-top: 2px solid rgb(255,240,0);
+    border-bottom: 2px solid rgb(255,240,0);
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bloc4 {
+    padding-bottom: 5px;
+}
+
+.bloc4 .liste1 li {
+    list-style-image: url('../img/bullet.gif');
+    margin-bottom: -8px;
+}
+
+.bloc4 .under_li {
+    margin-top: 20px;
+}
+
+ol {
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    margin-bottom: -26px;
+}
+
+/* --------------   Bloc Droit    ----------------- */
+
+.title {
+    background-image: url('../img/title.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.blocDroit {
+    position: absolute;
+    top: -42px;
+    right: 2px;
+    width: 280px;
+}
+
+.blocDroit h2 {
+    width: 234px;
+}
+
+.blocDroit h3 {
+    margin-bottom: -2px;
+    width: 236px;
+    padding-bottom: 0;
+}
+
+.bord-g {
+    float: left;
+    margin-left: -30px;
+}
+
+.menu li {
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.menu li {
+    list-style-image: url('../img/star1.jpg');
+}
+
+.star a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    list-style-image: url('../img/star2.jpg');
+}
+
+.star a:hover {
+    color: rgb(255,240,0);
+    text-decoration: none;
+}
+
+.star a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.div-update {
+    height: 350px;
+    border: 4px solid rgb(255,240,0);
+    width: 222px;
+    padding: 5px;
+}
+
+.div-update li {
+    list-style: none;
+    margin-left: -30px;
+    line-height: 26px;
+}
+
+.div-update ul {
+    margin-top: -8px;
+}
+
+.div-update a {
+    font-family: "Arial Black",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.div-update a:hover {
+    color: rgb(255,240,0);
+}
+
+.tab-side {
+    border: 4px solid rgb(255,240,0);
+    width: 222px;
+    padding: 5px;
+
+}
+
+.tab-side p {
+    margin-top: -4px;
+    margin-bottom: -4px;
+    line-height: 16px;
+    padding: 4px;
+}
+
+.tab-side a:link {
+    color: rgb(255,240,0);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.tab-side a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menus-bas li {
+    border-bottom: 1px solid rgb(85,85,85);
+    list-style: none;
+}
+
+.menus-bas li:hover {
+    background-color: rgb(37,37,37);
+}
+
+.menus-bas a {
+    color: rgb(85,85,85);
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.menus-bas a:hover {
+    color: rgb(236,21,91);
+}
+
+.menus-bas a:visited {
+    color: rgb(85,85,85);
+}
+
+.menu-g {
+    float: left;
+    width: 160px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.liste-g {
+    background-color: rgb(11,11,11);
+    padding-left: 1px;
+    margin-top: -18px;
+}
+
+.menu-d {
+    float: right;
+    width: 160px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.liste-d {
+    background-color: rgb(11,11,11);
+    padding-left: 1px;
+    margin-top: -18px;
+}
+
+
+/* ---------------  Footer  ----------------- */
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.footer a {
+    color: rgb(255,240,0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(236,21,91);
+}
+
+.bckg-img {
+    position: absolute;
+    bottom: -4px;
+    right: -38px;
+}
+
